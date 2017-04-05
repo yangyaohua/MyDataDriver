@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!-- SessionID -->
+<process name="Demo" terminal="Web"  url="index.html" >
+
+	<task name="login" url="login.html">
+		<cache_data>
+			<data name="username" id="id" type="text" />
+			<data name="password" id="passwd" type="text"/>
+		</cache_data>
+	</task>
+	
+	<task name="query" url="searchTicket.html">
+		<cache_data>
+			<data name="from" id="originalAddress" type="text" value = "变量标识名"/>
+			<data name="to" id="destinationAddress" type="text" value= "变量标识名"/>
+			<data name="departureTime" id="startDate" type="text" value= "变量标识名"/>
+		</cache_data>
+	</task>
+	
+	<task name="order" url="addPassengerInfo.html">
+		<cache_data>
+			<data name="bookname" id="bookName" type="text" />
+			<data name="booktype" id="type" type="select"/>
+			<data name="booknumber" id="cnumber" type="text" />
+			<data name="takename" id="tokenName" type="text" />
+			<data name="username" id="tokenNumber" type="text" />
+		</cache_data>
+	</task>
+	
+	<task name="pay" url="payTicket.html">
+		<cache_data>
+			<data name="paynumber" id="paynumber" type="text" />
+			<data name="paypassword" id="paypassword" type="text"/>
+		</cache_data>
+	</task>
+	
+</process>

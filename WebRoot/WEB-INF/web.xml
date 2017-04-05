@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://java.sun.com/xml/ns/javaee"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+	version="3.0">
+	<display-name>MyDataDriver</display-name>
+	<servlet>
+		<description>JAX-RS Tools Generated - Do not modify</description>
+		<servlet-name>JAX-RS Servlet</servlet-name>
+		<servlet-class>com.sun.jersey.spi.container.servlet.ServletContainer</servlet-class>
+		<load-on-startup>1</load-on-startup>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>JAX-RS Servlet</servlet-name>
+		<url-pattern>/jaxrs/*</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>UploadDataServlet</servlet-name>
+		<servlet-class>com.driver.servlet.UploadDataServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadDataServlet</servlet-name>
+		<url-pattern>/UploadDataServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>QueryAndroidTaskServlet</servlet-name>
+		<servlet-class>com.driver.servlet.QueryAndroidTaskServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryAndroidTaskServlet</servlet-name>
+		<url-pattern>/QueryAndroidTaskServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>QueryPcTaskServlet</servlet-name>
+		<servlet-class>com.driver.servlet.QueryPcTaskServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>QueryPcTaskServlet</servlet-name>
+		<url-pattern>/QueryPcTaskServlet</url-pattern>
+	</servlet-mapping>
+
+
+	<servlet>
+		<servlet-name>UploadPcDataServlet</servlet-name>
+		<servlet-class>com.driver.servlet.UploadPcDataServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>UploadPcDataServlet</servlet-name>
+		<url-pattern>/UploadPcDataServlet</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>PcXMLInfoServlet</servlet-name>
+		<servlet-class>com.driver.servlet.PcXMLInfoServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>PcXMLInfoServlet</servlet-name>
+		<url-pattern>/PcXMLInfoServlet</url-pattern>
+	</servlet-mapping>
+</web-app>

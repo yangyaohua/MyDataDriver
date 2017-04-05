@@ -1,0 +1,16 @@
+{
+	"0":{"index":"com.example.activity.LoginActivity", "key":"et_password", "packageName":"com.example.myctrip", "value":"123"},
+	"1":{"index":"com.example.activity.LoginActivity", "key":"et_user_id", "packageName":"com.example.myctrip", "value":"100000"},
+	"2":{"index":"com.example.activity.SearchTicketActivity", "key":"et_original_address", "packageName":"com.example.myctrip", "value":"Shanghai"},
+	"3":{"index":"com.example.activity.SearchTicketActivity", "key":"et_destination_address", "packageName":"com.example.myctrip", "value":"hebei"},
+	"4":{"index":"com.example.activity.SearchTicketActivity", "key":"et_start_day", "packageName":"com.example.myctrip", "value":"2017-3-16"},
+	"5":{"index":"com.example.activity.AddPassengerInfoActivity", "key":"et_token_name", "packageName":"com.example.myctrip", "value":""},
+	"6":{"index":"com.example.activity.AddPassengerInfoActivity", "key":"et_phonenumber", "packageName":"com.example.myctrip", "value":""},
+	"7":{"index":"com.example.activity.AddPassengerInfoActivity", "key":"et_certificate_number", "packageName":"com.example.myctrip", "value":""},
+	"8":{"index":"com.example.activity.AddPassengerInfoActivity", "key":"et_book_name", "packageName":"com.example.myctrip", "value":""},
+	"9":{"index":"com.example.activity.PayForTicketActivity", "key":"et_pay_password", "packageName":"com.example.myctrip", "value":"edgj"},
+	"10":{"index":"com.example.activity.PayForTicketActivity", "key":"et_pay_name", "packageName":"com.example.myctrip", "value":"10075"},
+	"11":{"index":"com.example.activity.AddPassengerInfoActivity", "key":"spinner_certificates_type", "packageName":"com.example.myctrip", "value":"0"},
+	"12":{"index":"com.example.testmydriver.MainActivity", "key":"et2", "packageName":"com.example.testmydriver", "value":"1000"},
+	"13":{"index":"com.example.testmydriver.MainActivity", "key":"et1", "packageName":"com.example.testmydriver", "value":"qgh"}
+}
